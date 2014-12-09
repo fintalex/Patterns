@@ -1,0 +1,9 @@
+c:\users\s.harchenko\documents\visual studio 2012\Projects\Pattern\Pattern\bin\Debug\Pattern.exe.config
+c:\users\s.harchenko\documents\visual studio 2012\Projects\Pattern\Pattern\bin\Debug\Pattern.exe
+c:\users\s.harchenko\documents\visual studio 2012\Projects\Pattern\Pattern\bin\Debug\Pattern.pdb
+c:\users\s.harchenko\documents\visual studio 2012\Projects\Pattern\Pattern\obj\Debug\Pattern.csprojResolveAssemblyReference.cache
+c:\users\s.harchenko\documents\visual studio 2012\Projects\Pattern\Pattern\obj\Debug\Pattern.exe
+c:\users\s.harchenko\documents\visual studio 2012\Projects\Pattern\Pattern\obj\Debug\Pattern.pdb
+C:\Users\s.harchenko\Documents\Visual Studio 2012\Projects\Pattern\Patterns\Pattern\bin\Debug\Pattern.exe.config
+C:\Users\s.harchenko\Documents\Visual Studio 2012\Projects\Pattern\Patterns\Pattern\obj\Debug\Pattern.exe
+C:\Users\s.harchenko\Documents\Visual Studio 2012\Projects\Pattern\Patterns\Pattern\obj\Debug\Pattern.pdb
