@@ -7,3 +7,9 @@ c:\users\s.harchenko\documents\visual studio 2012\Projects\Pattern\Pattern\obj\D
 C:\Users\s.harchenko\Documents\Visual Studio 2012\Projects\Pattern\Patterns\Pattern\bin\Debug\Pattern.exe.config
 C:\Users\s.harchenko\Documents\Visual Studio 2012\Projects\Pattern\Patterns\Pattern\obj\Debug\Pattern.exe
 C:\Users\s.harchenko\Documents\Visual Studio 2012\Projects\Pattern\Patterns\Pattern\obj\Debug\Pattern.pdb
+C:\Users\s.harchenko\Documents\Visual Studio 2012\Projects\Pattern\Patterns\Pattern\bin\Debug\Pattern.exe
+C:\Users\s.harchenko\Documents\Visual Studio 2012\Projects\Pattern\Patterns\Pattern\bin\Debug\Pattern.pdb
+C:\Users\s.harchenko\Documents\Visual Studio 2012\Projects\Pattern\Patterns\Pattern\obj\Debug\Pattern.csprojResolveAssemblyReference.cache
+C:\Users\s.harchenko\Documents\Visual Studio 2012\Projects\Pattern\Patterns\Patterns\Pattern\bin\Debug\Pattern.exe.config
+C:\Users\s.harchenko\Documents\Visual Studio 2012\Projects\Pattern\Patterns\Patterns\Pattern\obj\Debug\Pattern.exe
+C:\Users\s.harchenko\Documents\Visual Studio 2012\Projects\Pattern\Patterns\Patterns\Pattern\obj\Debug\Pattern.pdb

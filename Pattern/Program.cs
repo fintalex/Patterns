@@ -2,14 +2,43 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.IO;
 using System.Threading.Tasks;
 
 namespace Pattern
 {
+	
 	class Program
 	{
+		
 		static void Main(string[] args)
 		{
+
+			// ======================== Паттерны методов расширения C# ==========================
+
+			//// метод совмещенных вызовов
+			//var sb = new StringBuilder();
+			//sb.AppendFormatLine("Hello {0}", "world");
+
+			//// метоод добавления рекурсивных вызовов
+			//string a = "a", b= "b", c = "c";
+			//var path = new[] { a, b, c }.PathCombine();
+
+			//// метод добавления множественных параметров
+			//var list = new List<int>();
+			//list.AddRange(1, 2, 3, 4, 5);
+
+			//// перенос статического метода в метод расширения
+			//int number = 4;
+			//var str = "value is {0}".F(number);
+			
+			//// фабричные методы расширения
+			//DateTime dt = 22.June(1998);
+
+			//Console.ReadLine();
+
+			// ========================// ========================// ========================
+
 			// ======================== Singleton==========================
 			//Singleton single = Singleton.GetInstanse();
 			//single.flag = true;
@@ -25,19 +54,85 @@ namespace Pattern
 			// ========================// ========================// ========================
 
 			// ======================== Factory Method==========================
-			var factory = new FordFiestaFactory() as ICreateCars;
+			//var factory = new FordFiestaFactory() as ICreateCars;
 
-			var myCar = factory.CreateACar("red");
+			//var myCar = factory.CreateACar("red");
 
-			Console.WriteLine("Make: " + myCar.Make + " " + myCar.Model + " " + myCar.Colour);
+			//Console.WriteLine("Make: " + myCar.Make + " " + myCar.Model + " " + myCar.Colour);
 
-			Console.ReadLine();
+			//Console.ReadLine();
 			// ========================// ========================// ========================
+
+			// ========================Visitor==========================
+
+			//Man father = new Man();
+			//father.children.Add(new Man());
+			//father.children.Add(new Woman());
+
+			//Man aunt = new Man();
+			//aunt.children.Add(new Man());
+			//aunt.children.Add(new Man());
+
+			//Visitor visitor = new Visitor();
+			//visitor.Process(father);
+			//visitor.Process(aunt);
+
+			//
+
+			// ========================// ========================// ========================
+
+			//var sb = new StringBuilder();
 		}
 	}
 
-	// ======================== Singleton==========================
+	#region Extentions methods
+	// ======================== Паттерны методов расширения C# ==========================
+	// класс для расширенных методов
+	public static class ExtensionMethods
+	{
+		// метод совмещенных вызовов
+		public static StringBuilder AppendFormatLine(this StringBuilder sb, string format, params object[] args)
+		{
+			return sb.AppendFormat(format, args).AppendLine();
+		}
+
+		// метоод добавления рекурсивных вызовов
+		public static string PathCombine(this string[] paths)
+		{
+			var result = string.Empty;
+			foreach (var path in paths)
+			{
+				result = Path.Combine(result, path);
+			}
+			return result;
+		}
+
+		// метод добавления множественных параметров
+		public static void AddRange<T>(this IList<T> list, params T[] objects)
+		{
+			foreach (T obj in objects)
+			{
+				list.Add(obj);
+			}
+		}
+
+		// перенос статического метода в метод расширения
+		public static string F(this string format, params object[] args)
+		{
+			return string.Format(format, args);
+		}
+
+		// фабричные методы расширения
+		public static DateTime June(this int day, int year)
+		{
+			return new DateTime(year, 6, day);
+		}
+	} 
+	#endregion
+
+	
 	#region singleton
+	// ======================== Singleton==========================
 	class Singleton
 	{
 		private static Singleton _intstance = new Singleton();
@@ -49,9 +144,10 @@ namespace Pattern
 			return _intstance;
 		}
 		public bool flag; // может быть любой член
-	} 
-	#endregion
+	}
 	// ========================// ========================// ========================
+	#endregion
+	
 
 	// ======================== Factory Method==========================
 	// Паттерн создания объектов. Предоставляет инструменты для создания экземпляров некоторого класса
@@ -142,4 +238,41 @@ namespace Pattern
 		}
 	} 
 	#endregion
+
+	// ======================== Visitor ==========================
+
+	// есть какая то структура классов
+	public abstract class Person
+	{
+		public IList<Person> children { get; set; }
+	}
+	public class Woman : Person
+	{ 
+
+	}
+	public class Man : Person
+	{ 
+	}
+
+	// а теперь сама реализация visitor
+	public class Visitor
+	{
+		public void Process(Person person)
+		{ 
+			foreach (dynamic p in person.children)
+			{
+				Visit(p);
+			}
+		}
+		void Visit(Man m)
+		{ 
+			Console.WriteLine("Visit man");
+		}
+		void Visit(Woman w)
+		{
+			Console.WriteLine("Visit woman");
+		}
+	}
+
+	// ========================// ========================// ========================
 }
