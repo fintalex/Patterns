@@ -47,6 +47,7 @@
     <Compile Include="Command\ActiveObjectEngine.cs" />
     <Compile Include="Command\ActiveObjectEngineTest.cs" />
     <Compile Include="Command\Command.cs" />
+    <Compile Include="Command\SleepCommand.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
