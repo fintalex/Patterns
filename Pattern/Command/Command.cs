@@ -4,14 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Command.Pattern
+namespace Pattern.Command
 {
 	// Он инкапсулирует единственную функцию, сво-
 	// бодную от каких бы то ни было переменных.
 	public interface Command
 	{
 		void Execute();
-		void Undo();
 	}
 	// И это уже является паттерном Команда
 }

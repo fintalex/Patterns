@@ -26,8 +26,4 @@ namespace Pattern.Command
 			}
 		}
 	}
-	public interface Command
-	{
-		void Execute();
-	}
 }
