@@ -21,3 +21,11 @@ C:\Users\s.harchenko\Documents\GitHub\Patterns\Pattern\bin\Debug\Pattern.pdb
 C:\Users\s.harchenko\Documents\GitHub\Patterns\Pattern\bin\Debug\nunit.framework.dll
 C:\Users\s.harchenko\Documents\GitHub\Patterns\Pattern\bin\Debug\nunit.framework.xml
 C:\Users\s.harchenko\Documents\GitHub\Patterns\Pattern\obj\Debug\Pattern.csprojResolveAssemblyReference.cache
+C:\Users\Алексей\Documents\GitHub\Patterns\Pattern\bin\Debug\Pattern.exe.config
+C:\Users\Алексей\Documents\GitHub\Patterns\Pattern\obj\Debug\Pattern.exe
+C:\Users\Алексей\Documents\GitHub\Patterns\Pattern\obj\Debug\Pattern.pdb
+C:\Users\Алексей\Documents\GitHub\Patterns\Pattern\obj\Debug\Pattern.csprojResolveAssemblyReference.cache
+C:\Users\Алексей\Documents\GitHub\Patterns\Pattern\bin\Debug\Pattern.exe
+C:\Users\Алексей\Documents\GitHub\Patterns\Pattern\bin\Debug\Pattern.pdb
+C:\Users\Алексей\Documents\GitHub\Patterns\Pattern\bin\Debug\nunit.framework.dll
+C:\Users\Алексей\Documents\GitHub\Patterns\Pattern\bin\Debug\nunit.framework.xml
