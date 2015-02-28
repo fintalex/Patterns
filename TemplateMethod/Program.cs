@@ -104,8 +104,8 @@ namespace TemplateMethod
     {
         public static  void Main(string[] args)
         {
-            int[] testArray = new int[10] { 23, 5, 57, 6, 34, 66, 34, 32, 77, 83 };
-            int res = BubbleSorter.Sort(testArray);
+            //int[] testArray = new int[10] { 23, 5, 57, 6, 34, 66, 34, 32, 77, 83 };
+            //int res = BubbleSorter(testArray);
         }
     }
 }

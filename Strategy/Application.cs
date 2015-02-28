@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Strategy
 {
-    class Application
+    public interface Application
     {
+        void Init();
+        void Idle();
+        void Cleanup();
+        bool Done();
     }
 }

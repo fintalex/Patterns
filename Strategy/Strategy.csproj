@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>6e06236f-7889-4287-99bf-5c819b578434</ProjectGuid>
+    <ProjectGuid>{4A74C167-D660-402E-9D3C-289E90CCCB12}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Strategy</RootNamespace>
@@ -41,6 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Application.cs" />
+    <Compile Include="ApplicationRunner.cs" />
+    <Compile Include="BubbleSorter\BubbleSorter.cs" />
+    <Compile Include="BubbleSorter\IntSortHandler.cs" />
+    <Compile Include="BubbleSorter\QuickBubbleSorter.cs" />
+    <Compile Include="BubbleSorter\SortHandler.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

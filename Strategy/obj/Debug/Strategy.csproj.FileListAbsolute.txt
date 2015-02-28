@@ -1,0 +1,6 @@
+C:\Users\Алексей\Documents\GitHub\Patterns\Strategy\bin\Debug\Strategy.exe.config
+C:\Users\Алексей\Documents\GitHub\Patterns\Strategy\bin\Debug\Strategy.exe
+C:\Users\Алексей\Documents\GitHub\Patterns\Strategy\bin\Debug\Strategy.pdb
+C:\Users\Алексей\Documents\GitHub\Patterns\Strategy\obj\Debug\Strategy.csprojResolveAssemblyReference.cache
+C:\Users\Алексей\Documents\GitHub\Patterns\Strategy\obj\Debug\Strategy.exe
+C:\Users\Алексей\Documents\GitHub\Patterns\Strategy\obj\Debug\Strategy.pdb
