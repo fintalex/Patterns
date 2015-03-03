@@ -1,0 +1,8 @@
+C:\Users\s.harchenko\Documents\GitHub\Patterns\Monostate\bin\Debug\Monostate.exe.config
+C:\Users\s.harchenko\Documents\GitHub\Patterns\Monostate\bin\Debug\Monostate.exe
+C:\Users\s.harchenko\Documents\GitHub\Patterns\Monostate\bin\Debug\Monostate.pdb
+C:\Users\s.harchenko\Documents\GitHub\Patterns\Monostate\bin\Debug\nunit.framework.dll
+C:\Users\s.harchenko\Documents\GitHub\Patterns\Monostate\bin\Debug\nunit.framework.xml
+C:\Users\s.harchenko\Documents\GitHub\Patterns\Monostate\obj\Debug\MonostatePattern.csprojResolveAssemblyReference.cache
+C:\Users\s.harchenko\Documents\GitHub\Patterns\Monostate\obj\Debug\Monostate.exe
+C:\Users\s.harchenko\Documents\GitHub\Patterns\Monostate\obj\Debug\Monostate.pdb
