@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="Monostate.cs" />
     <Compile Include="MonostateExample\Turnstile.cs" />
+    <Compile Include="MonostateExample\TurnstileTest.cs" />
     <Compile Include="MonostateTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
