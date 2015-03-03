@@ -4,3 +4,9 @@ C:\Users\Алексей\Documents\GitHub\Patterns\TemplateMethod\bin\Debug\Templ
 C:\Users\Алексей\Documents\GitHub\Patterns\TemplateMethod\obj\Debug\TemplateMethod.csprojResolveAssemblyReference.cache
 C:\Users\Алексей\Documents\GitHub\Patterns\TemplateMethod\obj\Debug\TemplateMethod.exe
 C:\Users\Алексей\Documents\GitHub\Patterns\TemplateMethod\obj\Debug\TemplateMethod.pdb
+C:\Users\s.harchenko\Documents\GitHub\Patterns\TemplateMethod\bin\Debug\TemplateMethod.exe.config
+C:\Users\s.harchenko\Documents\GitHub\Patterns\TemplateMethod\bin\Debug\TemplateMethod.exe
+C:\Users\s.harchenko\Documents\GitHub\Patterns\TemplateMethod\bin\Debug\TemplateMethod.pdb
+C:\Users\s.harchenko\Documents\GitHub\Patterns\TemplateMethod\obj\Debug\TemplateMethod.csprojResolveAssemblyReference.cache
+C:\Users\s.harchenko\Documents\GitHub\Patterns\TemplateMethod\obj\Debug\TemplateMethod.exe
+C:\Users\s.harchenko\Documents\GitHub\Patterns\TemplateMethod\obj\Debug\TemplateMethod.pdb
