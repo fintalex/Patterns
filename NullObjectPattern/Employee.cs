@@ -14,7 +14,8 @@ namespace NullObjectPattern
 		public static readonly Employee NULL = new NullEmployee();
 		
 		// подкласс для Null объекта
-		public class NullEmployee : Employee
+		// обязательно закрытый вложенный класс - гарантирует единственность экземпляра
+		private class NullEmployee : Employee
 		{
 			public override bool IsTimeToPay(DateTime time)
 			{

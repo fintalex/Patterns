@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonostatePattern", "Monosta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullObjectPattern", "NullObjectPattern\NullObjectPattern.csproj", "{B68F88D7-1145-4BC5-83FB-B6DFC8D76792}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyByDoFactory", "StrategyByDoFactory\StrategyByDoFactory.csproj", "{B4C8741C-29B5-4271-B444-0FE2CD6E6916}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{B68F88D7-1145-4BC5-83FB-B6DFC8D76792}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B68F88D7-1145-4BC5-83FB-B6DFC8D76792}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B68F88D7-1145-4BC5-83FB-B6DFC8D76792}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4C8741C-29B5-4271-B444-0FE2CD6E6916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4C8741C-29B5-4271-B444-0FE2CD6E6916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4C8741C-29B5-4271-B444-0FE2CD6E6916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4C8741C-29B5-4271-B444-0FE2CD6E6916}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
