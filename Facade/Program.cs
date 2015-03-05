@@ -19,26 +19,15 @@ namespace Facade
 			var engine = new Engine();
 			var thermo = new Thermo();
 
-			// стирка хлопка
-			water.FillWater(90);
-			thermo.WarmUp(70);
-			engine.Rotate();
-			engine.Rotate();
-			engine.Rotate();
-			engine.Stop();
-			water.EmtyWater();
-			dryer.Dry(3000, 1000);
-			water.FillWater(15);
-			engine.Rotate();
-			engine.Rotate();
-			engine.Rotate();
-			engine.Stop();
-			water.EmtyWater();
-			dryer.Dry(6000, 1000);
+			var washingMashine = new WashingMachine.WashingMachine(dryer, engine, thermo, water);
 
-			Console.ReadLine();
+			// хлопок стираем 
+			washingMashine.washCotton();
 
 			// для шерсти по другому уже! 
+			washingMashine.washWool();
+
+			Console.ReadLine();
 		}
 	}
 }
