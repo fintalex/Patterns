@@ -8,20 +8,12 @@ namespace TemplateMethod_HamburgerVShotDog.Food
 {
 	class Hamburger : FastFood
 	{
-		public override void Prepare()
-		{
-			RoastBred();
-			FryMeat();
-			PutVegetables();
-			AddKetchup();
-		}
-
-		public void AddKetchup()
+		public override void AddTopings()
 		{
 			Console.WriteLine("AddKetchup");
 		}
-	
-		public void FryMeat()
+
+		public override void PrepareIngridient()
 		{
 			Console.WriteLine("FryMeat");
 		}

@@ -8,19 +8,11 @@ namespace TemplateMethod_HamburgerVShotDog.Food
 {
 	class HotDog : FastFood
 	{
-		public override void Prepare()
-		{
-			RoastBred();
-			BoilSausage();
-			PutVegetables();
-			AddMustard();
-		}
-
-		public void AddMustard()
+		public override void AddTopings()
 		{
 			Console.WriteLine("AddMustard");
 		}
-		public void BoilSausage()
+		public override void PrepareIngridient()
 		{
 			Console.WriteLine("sausage");
 		}

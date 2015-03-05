@@ -8,7 +8,17 @@ namespace TemplateMethod_HamburgerVShotDog.Food
 {
 	abstract class FastFood
 	{
-		public abstract void Prepare();
+		public void Prepare()
+		{
+			RoastBred();
+			PrepareIngridient();
+			PutVegetables();
+			AddTopings();
+		}
+
+		public abstract void AddTopings();
+
+		public abstract void PrepareIngridient();
 
 		public void RoastBred()
 		{
