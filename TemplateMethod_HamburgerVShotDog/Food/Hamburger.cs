@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace TemplateMethod_HamburgerVShotDog.Food
 {
-	class Hamburger
+	class Hamburger : FastFood
 	{
-		public void Prepare()
+		public override void Prepare()
 		{
 			RoastBred();
 			FryMeat();
@@ -20,17 +20,11 @@ namespace TemplateMethod_HamburgerVShotDog.Food
 		{
 			Console.WriteLine("AddKetchup");
 		}
-		public void PutVegetables()
-		{
-			Console.WriteLine("vegetables");
-		}
+	
 		public void FryMeat()
 		{
 			Console.WriteLine("FryMeat");
 		}
-		public void RoastBred()
-		{
-			Console.WriteLine("bread");
-		}
+		
 	}
 }

@@ -1,0 +1,6 @@
+C:\Users\s.harchenko\Documents\GitHub\Patterns\TemplateMethod_HamburgerVShotDog\obj\Debug\TemplateMethod_HamburgerVShotDog.csprojResolveAssemblyReference.cache
+C:\Users\s.harchenko\Documents\GitHub\Patterns\TemplateMethod_HamburgerVShotDog\bin\Debug\TemplateMethod_HamburgerVShotDog.exe.config
+C:\Users\s.harchenko\Documents\GitHub\Patterns\TemplateMethod_HamburgerVShotDog\bin\Debug\TemplateMethod_HamburgerVShotDog.exe
+C:\Users\s.harchenko\Documents\GitHub\Patterns\TemplateMethod_HamburgerVShotDog\bin\Debug\TemplateMethod_HamburgerVShotDog.pdb
+C:\Users\s.harchenko\Documents\GitHub\Patterns\TemplateMethod_HamburgerVShotDog\obj\Debug\TemplateMethod_HamburgerVShotDog.exe
+C:\Users\s.harchenko\Documents\GitHub\Patterns\TemplateMethod_HamburgerVShotDog\obj\Debug\TemplateMethod_HamburgerVShotDog.pdb
