@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyByDoFactory", "Stra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Facade\Facade.csproj", "{7008663E-A43F-437B-B1B4-D8FBDE0DEE9C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod_HamburgerVShotDog", "TemplateMethod_HamburgerVShotDog\TemplateMethod_HamburgerVShotDog.csproj", "{5FAC87CD-DEBD-4246-B099-8DBE3FEDCDB5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,10 @@ Global
 		{7008663E-A43F-437B-B1B4-D8FBDE0DEE9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7008663E-A43F-437B-B1B4-D8FBDE0DEE9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7008663E-A43F-437B-B1B4-D8FBDE0DEE9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FAC87CD-DEBD-4246-B099-8DBE3FEDCDB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FAC87CD-DEBD-4246-B099-8DBE3FEDCDB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FAC87CD-DEBD-4246-B099-8DBE3FEDCDB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FAC87CD-DEBD-4246-B099-8DBE3FEDCDB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
