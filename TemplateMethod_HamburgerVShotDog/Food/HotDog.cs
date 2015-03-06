@@ -16,6 +16,14 @@ namespace TemplateMethod_HamburgerVShotDog.Food
 		{
 			Console.WriteLine("sausage");
 		}
+		public override bool CustomerWantsTopings()
+		{
+			Console.WriteLine("Do you want mustard?");
+			var userInput = Console.ReadLine();
+
+			return userInput.ToLower() == "yes" || userInput == "y";
+		}
+
 		
 	}
 }

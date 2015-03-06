@@ -13,12 +13,21 @@ namespace TemplateMethod_HamburgerVShotDog.Food
 			RoastBred();
 			PrepareIngridient();
 			PutVegetables();
-			AddTopings();
+			
+
+			if (CustomerWantsTopings())
+				AddTopings();
 		}
 
 		public abstract void AddTopings();
 
 		public abstract void PrepareIngridient();
+
+		// метод если хотим настраивать Topings
+		public virtual bool CustomerWantsTopings()
+		{
+			return true;
+		}
 
 		public void RoastBred()
 		{
