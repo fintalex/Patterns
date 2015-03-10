@@ -8,17 +8,17 @@ namespace Adapter.WildCats
 {
 	class Tiger : IWildCat
 	{
-		string Breed
+		public string Breed
 		{
 			get { return "Тигр обыкновенны"; }
 		}
 
-		void Growl()
+		public void Growl()
 		{
 			Console.WriteLine("Grrrrr");
 		}
 
-		void Scratch()
+		public void Scratch()
 		{
 			Console.WriteLine("Очень сильно царапаюсь");
 		}

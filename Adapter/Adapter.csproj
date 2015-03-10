@@ -48,6 +48,11 @@
     <Compile Include="HomeCats\YardCat.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SuperHerous\IFly.cs" />
+    <Compile Include="SuperHerous\IGoThroughWall.cs" />
+    <Compile Include="SuperHerous\IShoot.cs" />
+    <Compile Include="SuperHerous\ISuperHero.cs" />
+    <Compile Include="SuperHerous\SuperHeroAdapter.cs" />
     <Compile Include="WildCats\IWildCat.cs" />
     <Compile Include="WildCats\Tiger.cs" />
   </ItemGroup>
