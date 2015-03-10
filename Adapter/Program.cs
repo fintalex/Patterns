@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Adapter.HomeCats;
 using Adapter.WildCats;
+using Adapter.Adapters;
 
 namespace Adapter
 {
@@ -21,7 +22,8 @@ namespace Adapter
 			CatInfoPrinter.PrintCatInfo(vaska);
 
 			IWildCat tiger = new Tiger();
-			CatInfoPrinter.PrintCatInfo(tiger);
+			HomeCatAdapter adapter = new HomeCatAdapter(tiger);
+			CatInfoPrinter.PrintCatInfo(adapter);
 
 			Console.ReadLine();
 		}

@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Adapters\HomeCatAdapter.cs" />
     <Compile Include="CatInfoPrinter.cs" />
     <Compile Include="HomeCats\IHomeCats.cs" />
     <Compile Include="HomeCats\PedigreeCat.cs" />
