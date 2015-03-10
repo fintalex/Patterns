@@ -1,0 +1,6 @@
+C:\Users\s.harchenko\Documents\GitHub\Patterns\Adapter\bin\Debug\Adapter.exe.config
+C:\Users\s.harchenko\Documents\GitHub\Patterns\Adapter\bin\Debug\Adapter.exe
+C:\Users\s.harchenko\Documents\GitHub\Patterns\Adapter\bin\Debug\Adapter.pdb
+C:\Users\s.harchenko\Documents\GitHub\Patterns\Adapter\obj\Debug\Adapter.csprojResolveAssemblyReference.cache
+C:\Users\s.harchenko\Documents\GitHub\Patterns\Adapter\obj\Debug\Adapter.exe
+C:\Users\s.harchenko\Documents\GitHub\Patterns\Adapter\obj\Debug\Adapter.pdb

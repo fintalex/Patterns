@@ -16,6 +16,8 @@ namespace TemplateMethod_HamburgerVShotDog.Food
 		{
 			Console.WriteLine("sausage");
 		}
+
+		// переопределяем метод для настройки добавки Горчицы
 		public override bool CustomerWantsTopings()
 		{
 			Console.WriteLine("Do you want mustard?");
