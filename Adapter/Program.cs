@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Adapter.HomeCats;
+using Adapter.WildCats;
 
 namespace Adapter
 {
@@ -18,6 +19,9 @@ namespace Adapter
 			IHomeCats wagner = new PedigreeCat();
 			wagner.Name = "Вагнер";
 			CatInfoPrinter.PrintCatInfo(vaska);
+
+			IWildCat tiger = new Tiger();
+			CatInfoPrinter.PrintCatInfo(tiger);
 
 			Console.ReadLine();
 		}
