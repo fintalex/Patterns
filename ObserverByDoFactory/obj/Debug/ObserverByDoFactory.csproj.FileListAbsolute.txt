@@ -1,0 +1,6 @@
+C:\Users\s.harchenko\Documents\GitHub\Patterns\ObserverByDoFactory\bin\Debug\ObserverByDoFactory.exe.config
+C:\Users\s.harchenko\Documents\GitHub\Patterns\ObserverByDoFactory\bin\Debug\ObserverByDoFactory.exe
+C:\Users\s.harchenko\Documents\GitHub\Patterns\ObserverByDoFactory\bin\Debug\ObserverByDoFactory.pdb
+C:\Users\s.harchenko\Documents\GitHub\Patterns\ObserverByDoFactory\obj\Debug\ObserverByDoFactory.csprojResolveAssemblyReference.cache
+C:\Users\s.harchenko\Documents\GitHub\Patterns\ObserverByDoFactory\obj\Debug\ObserverByDoFactory.exe
+C:\Users\s.harchenko\Documents\GitHub\Patterns\ObserverByDoFactory\obj\Debug\ObserverByDoFactory.pdb

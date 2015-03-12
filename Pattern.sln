@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{D14F1D31-DB5A-41BA-8BF5-1F078924CF0E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverByDoFactory", "ObserverByDoFactory\ObserverByDoFactory.csproj", "{2D833AA0-F6A8-4B9F-B01E-CA98795B9D3B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +75,10 @@ Global
 		{D14F1D31-DB5A-41BA-8BF5-1F078924CF0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D14F1D31-DB5A-41BA-8BF5-1F078924CF0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D14F1D31-DB5A-41BA-8BF5-1F078924CF0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D833AA0-F6A8-4B9F-B01E-CA98795B9D3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D833AA0-F6A8-4B9F-B01E-CA98795B9D3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D833AA0-F6A8-4B9F-B01E-CA98795B9D3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D833AA0-F6A8-4B9F-B01E-CA98795B9D3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
