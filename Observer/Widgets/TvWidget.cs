@@ -6,11 +6,19 @@ using System.Threading.Tasks;
 
 namespace Observer.Widgets
 {
-	class TvWidget
+	class TvWidget : IObserver
 	{
+		private string _tv;
+
 		public void Update(string twitter, string lenta, string tv)
 		{
-			Console.WriteLine("TV: {0}", tv);
+			_tv = tv;
+			Display();
+		}
+
+		public void Display()
+		{
+			Console.WriteLine("tv: {0}", _tv);
 		}
 	}
 }

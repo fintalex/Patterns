@@ -6,11 +6,20 @@ using System.Threading.Tasks;
 
 namespace Observer.Widgets
 {
-	class LentaWidget
+	class LentaWidget : IObserver
 	{
+		private string _lenta;
+
 		public void Update(string twitter, string lenta, string tv)
 		{
-			Console.WriteLine("Lenta: {0}", lenta);
+			_lenta = lenta;
+			Display();
 		}
+
+		public void Display()
+		{
+			Console.WriteLine("Lenta: {0}", _lenta);
+		}
+
 	}
 }
