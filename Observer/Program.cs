@@ -13,20 +13,23 @@ namespace Observer
 		static void Main(string[] args)
 		{
 			var newsAggregator = new NewsAggregator();
-			var twitterWidget = new TwitterWidget();
-			var lentaWidget = new LentaWidget();
-			var tvWidget = new TvWidget();
+			var twitterWidget = new TwitterWidget(newsAggregator);
+			var lentaWidget = new LentaWidget(newsAggregator);
+			var tvWidget = new TvWidget(newsAggregator);
 
-			newsAggregator.RegisterObserver(lentaWidget);
-			newsAggregator.RegisterObserver(tvWidget);
-			newsAggregator.RegisterObserver(twitterWidget);
+			//newsAggregator.RegisterObserver(lentaWidget);
+			//newsAggregator.RegisterObserver(tvWidget);
+			//newsAggregator.RegisterObserver(twitterWidget);
 
 
 
 			newsAggregator.NewNewsAvailable();
 			Console.WriteLine();
 
+			twitterWidget.RemoveFromSubject();
+
 			newsAggregator.NewNewsAvailable();
+
 			Console.ReadLine();
 		}
 	}

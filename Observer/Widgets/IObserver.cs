@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace Observer.Widgets
 {
-	interface IWidget
+	public interface IObserver
 	{
-		void Display();
+		void Update(string twitter, string lenta, string tv);
+		void RemoveFromSubject();
 	}
 }

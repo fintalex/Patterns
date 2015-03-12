@@ -45,6 +45,7 @@
     <Compile Include="News\NewsAggregator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Widgets\IObserver.cs" />
     <Compile Include="Widgets\IWidget.cs" />
     <Compile Include="Widgets\LentaWidget.cs" />
     <Compile Include="Widgets\TvWidget.cs" />
