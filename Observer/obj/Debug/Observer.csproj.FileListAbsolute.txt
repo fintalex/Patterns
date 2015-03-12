@@ -1,0 +1,6 @@
+C:\Users\s.harchenko\Documents\GitHub\Patterns\Observer\bin\Debug\Observer.exe.config
+C:\Users\s.harchenko\Documents\GitHub\Patterns\Observer\bin\Debug\Observer.exe
+C:\Users\s.harchenko\Documents\GitHub\Patterns\Observer\bin\Debug\Observer.pdb
+C:\Users\s.harchenko\Documents\GitHub\Patterns\Observer\obj\Debug\Observer.csprojResolveAssemblyReference.cache
+C:\Users\s.harchenko\Documents\GitHub\Patterns\Observer\obj\Debug\Observer.exe
+C:\Users\s.harchenko\Documents\GitHub\Patterns\Observer\obj\Debug\Observer.pdb
