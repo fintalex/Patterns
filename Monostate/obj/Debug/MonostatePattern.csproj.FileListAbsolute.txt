@@ -6,3 +6,11 @@ C:\Users\s.harchenko\Documents\GitHub\Patterns\Monostate\bin\Debug\nunit.framewo
 C:\Users\s.harchenko\Documents\GitHub\Patterns\Monostate\obj\Debug\MonostatePattern.csprojResolveAssemblyReference.cache
 C:\Users\s.harchenko\Documents\GitHub\Patterns\Monostate\obj\Debug\Monostate.exe
 C:\Users\s.harchenko\Documents\GitHub\Patterns\Monostate\obj\Debug\Monostate.pdb
+C:\Users\Алексей\Documents\GitHub\Patterns\Monostate\bin\Debug\Monostate.exe.config
+C:\Users\Алексей\Documents\GitHub\Patterns\Monostate\bin\Debug\Monostate.exe
+C:\Users\Алексей\Documents\GitHub\Patterns\Monostate\bin\Debug\Monostate.pdb
+C:\Users\Алексей\Documents\GitHub\Patterns\Monostate\bin\Debug\nunit.framework.dll
+C:\Users\Алексей\Documents\GitHub\Patterns\Monostate\bin\Debug\nunit.framework.xml
+C:\Users\Алексей\Documents\GitHub\Patterns\Monostate\obj\Debug\MonostatePattern.csprojResolveAssemblyReference.cache
+C:\Users\Алексей\Documents\GitHub\Patterns\Monostate\obj\Debug\Monostate.exe
+C:\Users\Алексей\Documents\GitHub\Patterns\Monostate\obj\Debug\Monostate.pdb

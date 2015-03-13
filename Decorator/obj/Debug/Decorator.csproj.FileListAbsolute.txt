@@ -1,0 +1,5 @@
+C:\Users\Алексей\Documents\GitHub\Patterns\Decorator\bin\Debug\Decorator.exe.config
+C:\Users\Алексей\Documents\GitHub\Patterns\Decorator\bin\Debug\Decorator.exe
+C:\Users\Алексей\Documents\GitHub\Patterns\Decorator\bin\Debug\Decorator.pdb
+C:\Users\Алексей\Documents\GitHub\Patterns\Decorator\obj\Debug\Decorator.exe
+C:\Users\Алексей\Documents\GitHub\Patterns\Decorator\obj\Debug\Decorator.pdb

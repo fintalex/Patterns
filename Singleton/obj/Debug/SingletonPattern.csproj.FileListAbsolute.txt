@@ -6,3 +6,11 @@ C:\Users\s.harchenko\Documents\GitHub\Patterns\Singleton\bin\Debug\nunit.framewo
 C:\Users\s.harchenko\Documents\GitHub\Patterns\Singleton\bin\Debug\nunit.framework.xml
 C:\Users\s.harchenko\Documents\GitHub\Patterns\Singleton\obj\Debug\Singleton.exe
 C:\Users\s.harchenko\Documents\GitHub\Patterns\Singleton\obj\Debug\Singleton.pdb
+C:\Users\Алексей\Documents\GitHub\Patterns\Singleton\bin\Debug\Singleton.exe.config
+C:\Users\Алексей\Documents\GitHub\Patterns\Singleton\bin\Debug\Singleton.exe
+C:\Users\Алексей\Documents\GitHub\Patterns\Singleton\bin\Debug\Singleton.pdb
+C:\Users\Алексей\Documents\GitHub\Patterns\Singleton\bin\Debug\nunit.framework.dll
+C:\Users\Алексей\Documents\GitHub\Patterns\Singleton\bin\Debug\nunit.framework.xml
+C:\Users\Алексей\Documents\GitHub\Patterns\Singleton\obj\Debug\SingletonPattern.csprojResolveAssemblyReference.cache
+C:\Users\Алексей\Documents\GitHub\Patterns\Singleton\obj\Debug\Singleton.exe
+C:\Users\Алексей\Documents\GitHub\Patterns\Singleton\obj\Debug\Singleton.pdb
