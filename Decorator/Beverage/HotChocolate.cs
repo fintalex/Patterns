@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace Decorator.Beverage
 {
-    class Espresso : BeverageBase
+    class HotChocolate : BeverageBase
     {
-        public Espresso()
+        public HotChocolate()
         {
-            Description = "Small portion of strong coffee";
+            Description = "Sweet hot chocolate";
         }
+
         public override double GetCost()
         {
             return 150 + base.GetCost();
@@ -19,17 +20,17 @@ namespace Decorator.Beverage
 
         public override bool HasMilk()
         {
-            return false;
+            return true;
         }
 
         public override bool HasSugar()
         {
-            return false;
+            return true;
         }
 
         public override bool HasChocolate()
         {
-            return false;
+            return true;
         }
     }
 }

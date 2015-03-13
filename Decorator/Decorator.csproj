@@ -42,7 +42,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Beverage\BeverageBase.cs" />
+    <Compile Include="Beverage\BlackTea.cs" />
+    <Compile Include="Beverage\Capuccino.cs" />
     <Compile Include="Beverage\Espresso.cs" />
+    <Compile Include="Beverage\HotChocolate.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
