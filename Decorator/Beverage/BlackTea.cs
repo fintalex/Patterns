@@ -14,22 +14,22 @@ namespace Decorator.Beverage
         }
         public override double GetCost()
         {
-            return 25 + base.GetCost();
+            return 25;
         }
 
-        public override bool HasMilk()
-        {
-            return false;
-        }
+        //public override bool HasMilk()
+        //{
+        //    return false;
+        //}
 
-        public override bool HasSugar()
-        {
-            return false;
-        }
+        //public override bool HasSugar()
+        //{
+        //    return false;
+        //}
 
-        public override bool HasChocolate()
-        {
-            return false;
-        }
+        //public override bool HasChocolate()
+        //{
+        //    return false;
+        //}
     }
 }

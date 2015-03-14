@@ -7,12 +7,18 @@ using System.Threading.Tasks;
 namespace Decorator.Beverage
 {
     // Классы должны быть открыты к расширению и закрыты для изменений (OCP) - open/closed principle
+
+    // Наследование интерфейсов, а не поведения
+
+    // композиция - для расширения поведения
+
+    // Композиция дает свободу в режиме выполнения
+
+    // вместо абстрактного класса может быть интерфейс - все зависи от изходной структуры
+
     public abstract class BeverageBase
     {
         protected string Description = "";
-        //protected double MilkPrice = 50;
-        //protected double SugarPrice = 10;
-        //protected double ChocolatePrice = 70;
 
         public string GetDescription()
         {
@@ -20,9 +26,5 @@ namespace Decorator.Beverage
         }
 
         public abstract double GetCost();
-
-        //public abstract bool HasMilk();
-        //public abstract bool HasSugar();
-        //public abstract bool HasChocolate();
     }
 }
