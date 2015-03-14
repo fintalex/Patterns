@@ -9,10 +9,9 @@ namespace Decorator.Decorator
 {
     class MilkCondiment : CondimentsDecoratorBase
     {
-        private BeverageBase _beverage;
         public MilkCondiment( BeverageBase beverage)
+            : base(beverage)
         {
-            _beverage = beverage;
             Description = _beverage.GetDescription() + "+milk";
         }
         public override double GetCost()

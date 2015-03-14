@@ -9,10 +9,9 @@ namespace Decorator.Decorator
 {
     class SugerCondiment : CondimentsDecoratorBase
     {
-        private BeverageBase _beverage;
         public SugerCondiment(BeverageBase beverage)
+            :base(beverage)
         {
-            _beverage = beverage;
             Description = _beverage.GetDescription() + "+Sugar";
         }
         public override double GetCost()
