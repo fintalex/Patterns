@@ -26,6 +26,18 @@ namespace StrategyDucks
                 Console.WriteLine("=====");
             }
 
+            DuckBase transformer = new TransformerDuck();
+            transformer.Display();
+            transformer.Swim();
+            transformer.Quack();
+            transformer.Fly();
+
+            // после того как наш трансформер утка научилась летать и квакать
+            transformer.SetFlyBehavior(new FlyWithRocket());
+            transformer.SetQuackBehavior(new ExoticQuack());
+            transformer.Quack();
+            transformer.Fly();
+
             Console.ReadLine();
         }
     }

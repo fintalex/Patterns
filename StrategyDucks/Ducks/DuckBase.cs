@@ -32,13 +32,16 @@ namespace StrategyDucks.Ducks
 
         public void SetQuackBehavior(IQuackBehavior quackBehavior)
         {
+
+            Console.WriteLine("Now i am learning how to quack");
             _quackBehavior = quackBehavior;
         }
 
         public void SetFlyBehavior(IFlyBehavior flyBehavior)
-         {
-             _flyBehavior = flyBehavior;
-         }
+        {
+            Console.WriteLine("Now i am learning how to fly");
+            _flyBehavior = flyBehavior;
+        }
 
         // метод для переопределения
         public abstract void Display();

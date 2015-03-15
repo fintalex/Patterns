@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="Ducks\DuckBase.cs" />
     <Compile Include="Ducks\ExoticDuck.cs" />
+    <Compile Include="Ducks\TransformerDuck.cs" />
     <Compile Include="Fly\FlyWithRocket.cs" />
     <Compile Include="Fly\FlyWithWings.cs" />
     <Compile Include="Fly\IFlyBehavior.cs" />
