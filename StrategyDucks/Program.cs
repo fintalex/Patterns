@@ -15,6 +15,7 @@ namespace StrategyDucks
             ducks.Add(new ExoticDuck());
             ducks.Add(new SimpleDuck());
             ducks.Add(new WoodenDuck());
+            ducks.Add(new RubberDuck());
 
             foreach (var duck in ducks)
             {
@@ -22,6 +23,7 @@ namespace StrategyDucks
                 duck.Swim();
                 duck.Quack();
                 duck.Fly();
+                Console.WriteLine("=====");
             }
 
             Console.ReadLine();

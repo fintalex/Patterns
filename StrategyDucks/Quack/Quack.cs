@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StrategyDucks.Ducks
+namespace StrategyDucks
 {
-    public class MuteQuack : IQuackBehavior
+    public class Quack : IQuackBehavior
     {
-        public void Quack()
+        void IQuackBehavior.Quack()
         {
-            Console.WriteLine("Squeak, Squeak");
+            Console.WriteLine("Quack, quack");
         }
     }
 }

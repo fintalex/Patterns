@@ -8,12 +8,17 @@ namespace StrategyDucks.Ducks
 {
     public abstract class DuckBase
     {
-        protected IFlyBehavior _flyBegavior;
+        protected IFlyBehavior _flyBehavior;
         protected IQuackBehavior _quackBehavior;
 
+        public DuckBase()
+        {
+            _flyBehavior = new FlyWithWings(); // по умолчанию все летают
+            _quackBehavior = new Quack(); // по умолчанию все квакают
+        }
         public void Quack()
         {
-            Console.WriteLine("Quack! Quack!");
+            _quackBehavior.Quack();
         }
         public void Swim()
         {
@@ -22,8 +27,18 @@ namespace StrategyDucks.Ducks
 
         public void Fly()
         {
-            Console.WriteLine("I'm flying");
+            _flyBehavior.Fly();
         }
+
+        public void SetQuackBehavior(IQuackBehavior quackBehavior)
+        {
+            _quackBehavior = quackBehavior;
+        }
+
+        public void SetFlyBehavior(IFlyBehavior flyBehavior)
+         {
+             _flyBehavior = flyBehavior;
+         }
 
         // метод для переопределения
         public abstract void Display();
