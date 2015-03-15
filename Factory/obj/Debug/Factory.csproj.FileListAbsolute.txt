@@ -1,0 +1,6 @@
+C:\Users\Алексей\Documents\GitHub\Patterns\Factory\bin\Debug\Factory.exe.config
+C:\Users\Алексей\Documents\GitHub\Patterns\Factory\bin\Debug\Factory.exe
+C:\Users\Алексей\Documents\GitHub\Patterns\Factory\bin\Debug\Factory.pdb
+C:\Users\Алексей\Documents\GitHub\Patterns\Factory\obj\Debug\Factory.csprojResolveAssemblyReference.cache
+C:\Users\Алексей\Documents\GitHub\Patterns\Factory\obj\Debug\Factory.exe
+C:\Users\Алексей\Documents\GitHub\Patterns\Factory\obj\Debug\Factory.pdb
