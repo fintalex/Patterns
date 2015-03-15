@@ -8,6 +8,9 @@ namespace StrategyDucks.Ducks
 {
     public abstract class DuckBase
     {
+        protected IFlyBehavior _flyBegavior;
+        protected IQuackBehavior _quackBehavior;
+
         public void Quack()
         {
             Console.WriteLine("Quack! Quack!");

@@ -43,8 +43,16 @@
   <ItemGroup>
     <Compile Include="Ducks\DuckBase.cs" />
     <Compile Include="Ducks\ExoticDuck.cs" />
+    <Compile Include="Ducks\FlyWithRocket.cs" />
+    <Compile Include="Ducks\FlyWithWings.cs" />
+    <Compile Include="Ducks\IFlyBehavior.cs" />
+    <Compile Include="Ducks\IQuackBegavior.cs" />
+    <Compile Include="Ducks\MuteQuack.cs" />
+    <Compile Include="Ducks\NoFly.cs" />
+    <Compile Include="Ducks\Quack.cs" />
     <Compile Include="Ducks\RubberDuck.cs" />
     <Compile Include="Ducks\SimpleDuck.cs" />
+    <Compile Include="Ducks\Squeak.cs" />
     <Compile Include="Ducks\WoodenDuck.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
