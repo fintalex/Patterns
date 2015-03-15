@@ -1,4 +1,5 @@
 ﻿using Factory.Cars;
+using Factory.Factory;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,9 +10,16 @@ namespace Factory.Facilities
 {
     class VolkswagenFacility
     {
-        public Car GetCar()
+        private SimpleFactory _factory;
+        public VolkswagenFacility(SimpleFactory factory)
         {
-            Car car = new Car();
+            _factory = factory;
+        }
+        public Car GetCar(string type)
+        {
+            
+            //Car car = new Car(); // сильно привязаны к своим классам
+            Car car = _factory.GetCar(type);
 
             car.Configure();
             car.AssembleBody();

@@ -1,4 +1,5 @@
 ﻿using Factory.Facilities;
+using Factory.Factory;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,8 +12,12 @@ namespace Factory
     {
         static void Main(string[] args)
         {
-            VolkswagenFacility facility = new VolkswagenFacility();
-            facility.GetCar();
+            SimpleFactory factory = new SimpleFactory();
+            VolkswagenFacility facility = new VolkswagenFacility(factory);
+            facility.GetCar("Golf");
+            facility.GetCar("Passat");
+            facility.GetCar("Tiguan");
+            facility.GetCar("Touareg");
 
             Console.ReadLine();
         }

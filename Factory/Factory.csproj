@@ -47,6 +47,7 @@
     <Compile Include="Cars\Tiguan.cs" />
     <Compile Include="Cars\Touareg.cs" />
     <Compile Include="Facilities\VolkswagenFacility.cs" />
+    <Compile Include="Factory\SimpleFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
