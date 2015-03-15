@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace Factory.Cars
 {
-    public class Touareg : Car
+    public class RussianTiguan : Car
     {
-        public Touareg()
+        public RussianTiguan()
         {
-            Name = "Touareg";
-            Body = "Big Crossover";
+            Name = "Tiguan";
+            Body = "Sedan";
+            Engine = "Gasolin";
         }
     }
 }

@@ -5,26 +5,25 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Factory.Factory
+namespace Factory.Facilities
 {
-    public class SimpleFactory
+    class RussianVolkswagenFacility : VolkswagenFacility
     {
-        public Car GetCar(string type)
+        public override Cars.Car CreateCar(string type)
         {
             Car car = new Car(); // сильно привязаны к своим классам
 
             // это есть реализация простой фабрики
             if (type == "Golf")
-                car = new DeutschGolf();
+                car = new RussianGolf();
             else if (type == "Passat")
-                car = new DeutschPassat();
+                car = new RussianPassat();
             else if (type == "Tiguan")
-                car = new DeutschTiguan();
+                car = new RussianTiguan();
             else if (type == "Touareg")
-                car = new DeutschTouareg();
+                car = new RussianTouareg();
 
             return car;
         }
-
     }
 }

@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Factory.Cars
 {
-    public class Tiguan : Car
+    public class DeutschPassat : Car
     {
-        public Tiguan()
+        public DeutschPassat()
         {
-            Name = "Tiguan";
+            Name = "Passat";
             Body = "Sedan";
         }
     }

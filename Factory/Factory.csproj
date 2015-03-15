@@ -42,10 +42,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cars\Car.cs" />
-    <Compile Include="Cars\Golf.cs" />
-    <Compile Include="Cars\Passat.cs" />
-    <Compile Include="Cars\Tiguan.cs" />
-    <Compile Include="Cars\Touareg.cs" />
+    <Compile Include="Cars\RussianGolf.cs" />
+    <Compile Include="Cars\DeutschGolf.cs" />
+    <Compile Include="Cars\RussianPassat.cs" />
+    <Compile Include="Cars\DeutschPassat.cs" />
+    <Compile Include="Cars\RussianTiguan.cs" />
+    <Compile Include="Cars\DeutschTiguan.cs" />
+    <Compile Include="Cars\RussianTouareg.cs" />
+    <Compile Include="Cars\DeutschTouareg.cs" />
+    <Compile Include="Facilities\DeutschVolkswagenFacility.cs" />
+    <Compile Include="Facilities\RussianVolkswagenFacility.cs" />
     <Compile Include="Facilities\VolkswagenFacility.cs" />
     <Compile Include="Factory\SimpleFactory.cs" />
     <Compile Include="Program.cs" />

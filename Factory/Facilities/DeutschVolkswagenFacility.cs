@@ -5,11 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Factory.Factory
+namespace Factory.Facilities
 {
-    public class SimpleFactory
+    class DeutschVolkswagenFacility : VolkswagenFacility
     {
-        public Car GetCar(string type)
+        public override Cars.Car CreateCar(string type)
         {
             Car car = new Car(); // сильно привязаны к своим классам
 
@@ -25,6 +25,5 @@ namespace Factory.Factory
 
             return car;
         }
-
     }
 }

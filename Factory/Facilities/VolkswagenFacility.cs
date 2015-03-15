@@ -8,18 +8,19 @@ using System.Threading.Tasks;
 
 namespace Factory.Facilities
 {
-    class VolkswagenFacility
+    abstract class VolkswagenFacility
     {
-        private SimpleFactory _factory;
-        public VolkswagenFacility(SimpleFactory factory)
-        {
-            _factory = factory;
-        }
+        //private SimpleFactory _factory;
+        //public VolkswagenFacility(SimpleFactory factory)
+        //{
+        //    _factory = factory;
+        //}
         public Car GetCar(string type)
         {
             
             //Car car = new Car(); // сильно привязаны к своим классам
-            Car car = _factory.GetCar(type);
+            //Car car = _factory.GetCar(type);
+            Car car = CreateCar(type);
 
             car.Configure();
             car.AssembleBody();
@@ -29,5 +30,6 @@ namespace Factory.Facilities
 
             return car;
         }
+        public abstract Car CreateCar(string type);
     }
 }
