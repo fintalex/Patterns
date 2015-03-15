@@ -17,6 +17,11 @@ namespace StrategyDucks.Ducks
             Console.WriteLine("I'm swimming");
         }
 
+        public void Fly()
+        {
+            Console.WriteLine("I'm flying");
+        }
+
         // метод для переопределения
         public abstract void Display();
     }

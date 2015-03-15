@@ -14,6 +14,7 @@ namespace StrategyDucks
             List<DuckBase> ducks = new List<DuckBase>();
             ducks.Add(new ExoticDuck());
             ducks.Add(new SimpleDuck());
+            ducks.Add(new WoodenDuck());
 
             foreach (var duck in ducks)
             {

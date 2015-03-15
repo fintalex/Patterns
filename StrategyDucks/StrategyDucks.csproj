@@ -43,7 +43,9 @@
   <ItemGroup>
     <Compile Include="Ducks\DuckBase.cs" />
     <Compile Include="Ducks\ExoticDuck.cs" />
+    <Compile Include="Ducks\RubberDuck.cs" />
     <Compile Include="Ducks\SimpleDuck.cs" />
+    <Compile Include="Ducks\WoodenDuck.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
