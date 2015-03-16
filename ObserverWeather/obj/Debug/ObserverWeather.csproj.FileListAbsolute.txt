@@ -1,0 +1,5 @@
+C:\Users\Алексей\Documents\GitHub\Patterns\ObserverWeather\bin\Debug\ObserverWeather.exe.config
+C:\Users\Алексей\Documents\GitHub\Patterns\ObserverWeather\bin\Debug\ObserverWeather.exe
+C:\Users\Алексей\Documents\GitHub\Patterns\ObserverWeather\bin\Debug\ObserverWeather.pdb
+C:\Users\Алексей\Documents\GitHub\Patterns\ObserverWeather\obj\Debug\ObserverWeather.exe
+C:\Users\Алексей\Documents\GitHub\Patterns\ObserverWeather\obj\Debug\ObserverWeather.pdb
