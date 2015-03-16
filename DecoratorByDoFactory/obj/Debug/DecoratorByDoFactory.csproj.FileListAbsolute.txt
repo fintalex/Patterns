@@ -4,3 +4,9 @@ C:\Users\Алексей\Documents\GitHub\Patterns\DecoratorByDoFactory\bin\Debug
 C:\Users\Алексей\Documents\GitHub\Patterns\DecoratorByDoFactory\obj\Debug\DecoratorByDoFactory.csprojResolveAssemblyReference.cache
 C:\Users\Алексей\Documents\GitHub\Patterns\DecoratorByDoFactory\obj\Debug\DecoratorByDoFactory.exe
 C:\Users\Алексей\Documents\GitHub\Patterns\DecoratorByDoFactory\obj\Debug\DecoratorByDoFactory.pdb
+C:\Users\s.harchenko\Documents\GitHub\Patterns\DecoratorByDoFactory\bin\Debug\DecoratorByDoFactory.exe.config
+C:\Users\s.harchenko\Documents\GitHub\Patterns\DecoratorByDoFactory\bin\Debug\DecoratorByDoFactory.exe
+C:\Users\s.harchenko\Documents\GitHub\Patterns\DecoratorByDoFactory\bin\Debug\DecoratorByDoFactory.pdb
+C:\Users\s.harchenko\Documents\GitHub\Patterns\DecoratorByDoFactory\obj\Debug\DecoratorByDoFactory.csprojResolveAssemblyReference.cache
+C:\Users\s.harchenko\Documents\GitHub\Patterns\DecoratorByDoFactory\obj\Debug\DecoratorByDoFactory.exe
+C:\Users\s.harchenko\Documents\GitHub\Patterns\DecoratorByDoFactory\obj\Debug\DecoratorByDoFactory.pdb

@@ -42,18 +42,26 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cars\Car.cs" />
-    <Compile Include="Cars\RussianGolf.cs" />
-    <Compile Include="Cars\DeutschGolf.cs" />
-    <Compile Include="Cars\RussianPassat.cs" />
-    <Compile Include="Cars\DeutschPassat.cs" />
-    <Compile Include="Cars\RussianTiguan.cs" />
-    <Compile Include="Cars\DeutschTiguan.cs" />
-    <Compile Include="Cars\RussianTouareg.cs" />
-    <Compile Include="Cars\DeutschTouareg.cs" />
+    <Compile Include="Cars\Golf.cs" />
+    <Compile Include="Cars\Passat.cs" />
+    <Compile Include="Cars\Tiguan.cs" />
+    <Compile Include="Cars\Touareg.cs" />
     <Compile Include="Facilities\DeutschVolkswagenFacility.cs" />
     <Compile Include="Facilities\RussianVolkswagenFacility.cs" />
     <Compile Include="Facilities\VolkswagenFacility.cs" />
     <Compile Include="Factory\SimpleFactory.cs" />
+    <Compile Include="PartsFactory\CarPartsFactory.cs" />
+    <Compile Include="PartsFactory\DeutschCarPartsFactory.cs" />
+    <Compile Include="PartsFactory\RussianCarPartsFactory.cs" />
+    <Compile Include="Parts\BigWheels.cs" />
+    <Compile Include="Parts\BlackPaint.cs" />
+    <Compile Include="Parts\DieselEngine.cs" />
+    <Compile Include="Parts\Engine.cs" />
+    <Compile Include="Parts\GasolineEngine.cs" />
+    <Compile Include="Parts\MediumWheels.cs" />
+    <Compile Include="Parts\Paint.cs" />
+    <Compile Include="Parts\Wheels.cs" />
+    <Compile Include="Parts\WhitePaint.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

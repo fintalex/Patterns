@@ -4,3 +4,9 @@ C:\Users\Алексей\Documents\GitHub\Patterns\StrategyDucks\bin\Debug\Strate
 C:\Users\Алексей\Documents\GitHub\Patterns\StrategyDucks\obj\Debug\StrategyDucks.csprojResolveAssemblyReference.cache
 C:\Users\Алексей\Documents\GitHub\Patterns\StrategyDucks\obj\Debug\StrategyDucks.exe
 C:\Users\Алексей\Documents\GitHub\Patterns\StrategyDucks\obj\Debug\StrategyDucks.pdb
+C:\Users\s.harchenko\Documents\GitHub\Patterns\StrategyDucks\bin\Debug\StrategyDucks.exe.config
+C:\Users\s.harchenko\Documents\GitHub\Patterns\StrategyDucks\bin\Debug\StrategyDucks.exe
+C:\Users\s.harchenko\Documents\GitHub\Patterns\StrategyDucks\bin\Debug\StrategyDucks.pdb
+C:\Users\s.harchenko\Documents\GitHub\Patterns\StrategyDucks\obj\Debug\StrategyDucks.csprojResolveAssemblyReference.cache
+C:\Users\s.harchenko\Documents\GitHub\Patterns\StrategyDucks\obj\Debug\StrategyDucks.exe
+C:\Users\s.harchenko\Documents\GitHub\Patterns\StrategyDucks\obj\Debug\StrategyDucks.pdb

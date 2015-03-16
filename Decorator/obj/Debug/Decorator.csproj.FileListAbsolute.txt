@@ -4,3 +4,9 @@ C:\Users\Алексей\Documents\GitHub\Patterns\Decorator\bin\Debug\Decorator.
 C:\Users\Алексей\Documents\GitHub\Patterns\Decorator\obj\Debug\Decorator.exe
 C:\Users\Алексей\Documents\GitHub\Patterns\Decorator\obj\Debug\Decorator.pdb
 C:\Users\Алексей\Documents\GitHub\Patterns\Decorator\obj\Debug\Decorator.csprojResolveAssemblyReference.cache
+C:\Users\s.harchenko\Documents\GitHub\Patterns\Decorator\bin\Debug\Decorator.exe.config
+C:\Users\s.harchenko\Documents\GitHub\Patterns\Decorator\bin\Debug\Decorator.exe
+C:\Users\s.harchenko\Documents\GitHub\Patterns\Decorator\bin\Debug\Decorator.pdb
+C:\Users\s.harchenko\Documents\GitHub\Patterns\Decorator\obj\Debug\Decorator.csprojResolveAssemblyReference.cache
+C:\Users\s.harchenko\Documents\GitHub\Patterns\Decorator\obj\Debug\Decorator.exe
+C:\Users\s.harchenko\Documents\GitHub\Patterns\Decorator\obj\Debug\Decorator.pdb

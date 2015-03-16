@@ -1,4 +1,5 @@
 ﻿using Factory.Cars;
+using Factory.PartsFactory;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,19 +12,19 @@ namespace Factory.Facilities
     {
         public override Cars.Car CreateCar(string type)
         {
-            Car car = new Car(); // сильно привязаны к своим классам
+			CarPartsFactory factory = new DeutschCarPartsFactory();
 
-            // это есть реализация простой фабрики
-            if (type == "Golf")
-                car = new DeutschGolf();
-            else if (type == "Passat")
-                car = new DeutschPassat();
-            else if (type == "Tiguan")
-                car = new DeutschTiguan();
-            else if (type == "Touareg")
-                car = new DeutschTouareg();
+			// это есть реализация простой фабрики
+			if (type == "Golf")
+				return new Golf(factory);
+			else if (type == "Passat")
+				return new Passat(factory);
+			else if (type == "Tiguan")
+				return new Tiguan(factory);
+			else if (type == "Touareg")
+				return new Touareg(factory);
 
-            return car;
+			return null;
         }
     }
 }
