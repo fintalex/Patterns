@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Factory.PartsFactory.RussianCarPartsFactory">
+    <Position X="9.75" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAQ=</HashCode>
+      <FileName>PartsFactory\RussianCarPartsFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.PartsFactory.CarPartsFactory">
+    <Position X="11.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAQ=</HashCode>
+      <FileName>PartsFactory\CarPartsFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.PartsFactory.DeutschCarPartsFactory">
+    <Position X="12.5" Y="6.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAQ=</HashCode>
+      <FileName>PartsFactory\DeutschCarPartsFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.Cars.Car" Collapsed="true">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAABBAAQAAAAAAAAQRAAAAABIAAA=</HashCode>
+      <FileName>Cars\Car.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.Cars.Golf">
+    <Position X="8" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Cars\Golf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.Cars.Passat">
+    <Position X="1.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Cars\Passat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.Cars.Tiguan">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Cars\Tiguan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.Cars.Touareg">
+    <Position X="5.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Cars\Touareg.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.Facilities.DeutschVolkswagenFacility">
+    <Position X="10.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Facilities\DeutschVolkswagenFacility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.Facilities.RussianVolkswagenFacility">
+    <Position X="12.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Facilities\RussianVolkswagenFacility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.Facilities.VolkswagenFacility">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Facilities\VolkswagenFacility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.Parts.BigWheels">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Parts\BigWheels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.Parts.BlackPaint">
+    <Position X="5.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Parts\BlackPaint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.Parts.DieselEngine">
+    <Position X="2.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Parts\DieselEngine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.Parts.Engine">
+    <Position X="1.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Parts\Engine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.Parts.GasolineEngine">
+    <Position X="0.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Parts\GasolineEngine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.Parts.MediumWheels">
+    <Position X="2.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Parts\MediumWheels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.Parts.Paint" Collapsed="true">
+    <Position X="6.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Parts\Paint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.Parts.Wheels" Collapsed="true">
+    <Position X="1.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Parts\Wheels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.Parts.WhitePaint">
+    <Position X="7.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Parts\WhitePaint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
