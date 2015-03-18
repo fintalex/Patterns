@@ -4,3 +4,9 @@ C:\Users\s.harchenko\Documents\GitHub\Patterns\StrategyByDoFactory\bin\Debug\Str
 C:\Users\s.harchenko\Documents\GitHub\Patterns\StrategyByDoFactory\obj\Debug\StrategyByDoFactory.csprojResolveAssemblyReference.cache
 C:\Users\s.harchenko\Documents\GitHub\Patterns\StrategyByDoFactory\obj\Debug\StrategyByDoFactory.exe
 C:\Users\s.harchenko\Documents\GitHub\Patterns\StrategyByDoFactory\obj\Debug\StrategyByDoFactory.pdb
+C:\Users\Алексей\Documents\GitHub\Patterns\StrategyByDoFactory\bin\Debug\StrategyByDoFactory.exe.config
+C:\Users\Алексей\Documents\GitHub\Patterns\StrategyByDoFactory\bin\Debug\StrategyByDoFactory.exe
+C:\Users\Алексей\Documents\GitHub\Patterns\StrategyByDoFactory\bin\Debug\StrategyByDoFactory.pdb
+C:\Users\Алексей\Documents\GitHub\Patterns\StrategyByDoFactory\obj\Debug\StrategyByDoFactory.csprojResolveAssemblyReference.cache
+C:\Users\Алексей\Documents\GitHub\Patterns\StrategyByDoFactory\obj\Debug\StrategyByDoFactory.exe
+C:\Users\Алексей\Documents\GitHub\Patterns\StrategyByDoFactory\obj\Debug\StrategyByDoFactory.pdb
