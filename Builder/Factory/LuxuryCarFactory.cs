@@ -14,7 +14,14 @@ namespace Builder.Factory
         { }
         public override Car Construct()
         {
-            throw new NotImplementedException();
+            CarBuilder.BuilderFrames();
+            CarBuilder.BuilderEngine();
+            CarBuilder.BuilderWheels();
+            CarBuilder.BuilderSafety();
+            CarBuilder.BuilderMuitimedia();
+            CarBuilder.BuilderLuxury();
+
+            return CarBuilder.GetCar();
         }
     }
 }
