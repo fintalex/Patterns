@@ -1,0 +1,6 @@
+C:\Users\Алексей\Documents\GitHub\Patterns\Builder\bin\Debug\Builder.exe.config
+C:\Users\Алексей\Documents\GitHub\Patterns\Builder\bin\Debug\Builder.exe
+C:\Users\Алексей\Documents\GitHub\Patterns\Builder\bin\Debug\Builder.pdb
+C:\Users\Алексей\Documents\GitHub\Patterns\Builder\obj\Debug\Builder.csprojResolveAssemblyReference.cache
+C:\Users\Алексей\Documents\GitHub\Patterns\Builder\obj\Debug\Builder.exe
+C:\Users\Алексей\Documents\GitHub\Patterns\Builder\obj\Debug\Builder.pdb
