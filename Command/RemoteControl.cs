@@ -23,7 +23,7 @@ namespace Command
 		{
 			Console.WriteLine("Выберите вариант ниже:");
 
-			
+			// перебираем все наши команды и рисуем меню
 			foreach (var btnId in _commands.Keys)
 			{
 				Console.WriteLine("{0} \t- {1}", btnId, _commands[btnId]);
