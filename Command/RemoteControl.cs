@@ -22,11 +22,14 @@ namespace Command
 		internal void DrawMenu()
 		{
 			Console.WriteLine("Выберите вариант ниже:");
-			Console.WriteLine("1 \t Включить свет");
+
+			foreach (var btnId in _commands.Keys)
+			{
+				Console.WriteLine("{0} \t- {1}", btnId, _commands[btnId]);
+			}
+			
 			Console.WriteLine("1off \t  Выключить свет");
-			Console.WriteLine("2 \t  Включить телевизор");
 			Console.WriteLine("2off \t  Выключить телевизор");
-			Console.WriteLine("3 \t  Включить музыку");
 			Console.WriteLine("3off \t  Выключить музыку");
 			Console.WriteLine("0 \t  Выход");
 			Console.WriteLine();

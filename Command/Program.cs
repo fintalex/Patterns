@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Command.Command;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,6 +14,7 @@ namespace Command
 			var remote = new RemoteControl();
 			string userInput;
 
+			remote.SerCommandForButton("2", new LightsCommand());
 			do
 			{
 				remote.DrawMenu();
