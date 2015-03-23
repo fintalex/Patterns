@@ -10,18 +10,22 @@ namespace Command.Command
 	public class LightsCommand : ICommand
 	{
 		private Light _light;
+        private Stack<LightState> _states;
 
 		public LightsCommand(Light light) 
 		{
 			_light = light;
+            _states = new Stack<LightState>();
 		}
 		public void Execute()
 		{
-			_light.TurnOn(); // Console.WriteLine("Свет включен");
+            _states.Push(_light.State);
+			_light.ToggleLight(); 
 		}
 		public void Undo()
 		{
-			_light.TurnOff();
+            var prevStates = _states.Pop();
+            _light.SetState(prevStates);
 		}
 
 		public override string ToString()

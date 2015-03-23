@@ -4,3 +4,9 @@ C:\Users\s.harchenko\Documents\GitHub\Patterns\Command\bin\Debug\Command.pdb
 C:\Users\s.harchenko\Documents\GitHub\Patterns\Command\obj\Debug\Command.csprojResolveAssemblyReference.cache
 C:\Users\s.harchenko\Documents\GitHub\Patterns\Command\obj\Debug\Command.exe
 C:\Users\s.harchenko\Documents\GitHub\Patterns\Command\obj\Debug\Command.pdb
+C:\Users\Алексей\Documents\GitHub\Patterns\Command\obj\Debug\Command.csprojResolveAssemblyReference.cache
+C:\Users\Алексей\Documents\GitHub\Patterns\Command\obj\Debug\Command.exe
+C:\Users\Алексей\Documents\GitHub\Patterns\Command\bin\Debug\Command.exe.config
+C:\Users\Алексей\Documents\GitHub\Patterns\Command\bin\Debug\Command.exe
+C:\Users\Алексей\Documents\GitHub\Patterns\Command\bin\Debug\Command.pdb
+C:\Users\Алексей\Documents\GitHub\Patterns\Command\obj\Debug\Command.pdb

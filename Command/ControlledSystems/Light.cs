@@ -22,33 +22,51 @@ namespace Command.ControlledSystems
 			{
 				case LightState.Off:
 					State = LightState.Low;
-					Console.WriteLine("Свет тусклый");
 					break;
 				case LightState.Low:
 					State = LightState.Medium;
-					Console.WriteLine("Свет средний");
 					break;
 				case LightState.Medium:
 					State = LightState.High;
-					Console.WriteLine("Свет яркий");
 					break;
 				case LightState.High:
-					State = LightState.Low;
-					Console.WriteLine("Свет тусклый");
-					break;
-				default:
+					State = LightState.Off;
 					break;
 			}
-			Console.WriteLine("Свет включен");
-			State = State.On;
+            PrintLight();
+			
 		}
 		public void TurnOff()
 		{
-			Console.WriteLine("Свет выключен");
 			State = LightState.Off;
+            PrintLight();
 		}
+        public void SetState(LightState state)
+        {
+            State = state;
+            PrintLight();
+        }
 
 
 		public LightState State { get; set; }
+
+        private void PrintLight()
+        {
+            switch (State)
+            {
+                case LightState.Off:
+                    Console.WriteLine("Свет выключен ");
+                    break;
+                case LightState.Low:
+                    Console.WriteLine("Свет тусклый");
+                    break;
+                case LightState.Medium:
+                    Console.WriteLine("Свет средний");
+                    break;
+                case LightState.High:
+                    Console.WriteLine("Свет яркий");
+                    break;
+            }
+        }
 	}
 }
