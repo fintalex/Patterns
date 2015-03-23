@@ -14,7 +14,7 @@ namespace Command.ControlledSystems
 			Console.WriteLine("Чайник включен");
 			State = State.On;
 		}
-		public void TurnOn()
+		public void TurnOff()
 		{
 			Console.WriteLine("Чайник выключен");
 			State = State.Off;

@@ -1,4 +1,5 @@
 ﻿using Command.Command;
+using Command.ControlledSystems;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,18 +15,29 @@ namespace Command
 			var remote = new RemoteControl();
 			string userInput;
 
-			remote.SerCommandForButton("1", new LightsCommand());
-			remote.SerCommandForButton("2", new TvCommand());
-			remote.SerCommandForButton("3", new MusicCommand());
-			remote.SerCommandForButton("4", new TeapodCommand());
+			remote.SetCommandForButton(1, new LightsCommand(new Light()));
+			remote.SetCommandForButton(2, new TvCommand(new Tv()));
+			remote.SetCommandForButton(3, new MusicCommand(new Music()));
+			remote.SetCommandForButton(4, new TeapodCommand(new Teapod()));
 			do
 			{
-				remote.DrawMenu();
-				remote.PerformAction();
+				Console.WriteLine("Выберите вариант ниже:");
+				//remote.DrawMenu();
+				//remote.PerformAction();
+
+				Console.WriteLine(remote);
+				Console.WriteLine("\nВаш выбор: ");
+
+				var input = Console.ReadLine();
+				int btnID;
+				int.TryParse(input, out btnID);
+
+				remote.PushButton(btnID);
+				remote.UndoButton(btnID);
 
 				Console.WriteLine("\nВы хотите продолжить (y/n): ");
 				userInput = Console.ReadLine();
-			} while (userInput != "y");
+			} while (userInput == "y");
 		}
 	}
 }

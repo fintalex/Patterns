@@ -13,7 +13,7 @@ namespace Command.ControlledSystems
 			Console.WriteLine("Музыка включена");
 			State = State.On;
 		}
-		public void TurnOn()
+		public void TurnOff()
 		{
 			Console.WriteLine("Музыка выключена");
 			State = State.Off;

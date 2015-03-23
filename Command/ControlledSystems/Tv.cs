@@ -18,7 +18,7 @@ namespace Command.ControlledSystems
 			Console.WriteLine("телевизор включен");
 			State = State.On;
 		}
-		public void TurnOn()
+		public void TurnOff()
 		{
 			Console.WriteLine("телевизор выключен");
 			State = State.Off;
