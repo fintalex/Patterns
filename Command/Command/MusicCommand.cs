@@ -8,9 +8,14 @@ namespace Command.Command
 {
 	public class MusicCommand : ICommand
 	{
+
 		public void Execute()
 		{
-			Console.WriteLine("Music выключен");
+			Console.WriteLine("Music включен");
+		}
+		public override string ToString()
+		{
+			return "Включить music";
 		}
 	}
 }

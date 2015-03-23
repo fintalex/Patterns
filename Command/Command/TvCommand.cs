@@ -6,11 +6,15 @@ using System.Threading.Tasks;
 
 namespace Command.Command
 {
-	public class LightsCommand : ICommand
+	public class TvCommand : ICommand
 	{
 		public void Execute()
 		{
 			Console.WriteLine("Телевизор включен");
+		}
+		public override string ToString()
+		{
+			return "Включить tv";
 		}
 	}
 }

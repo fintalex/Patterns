@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Command.Command;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,16 @@ namespace Command
 {
 	public class RemoteControl
 	{
+		private Dictionary<string, ICommand> _commands;
+
+		public RemoteControl()
+		{
+			_commands = new Dictionary<string, ICommand>();
+			_commands.Add("1", new LightsCommand());
+			_commands.Add("2", new TvCommand());
+			_commands.Add("3", new MusicCommand());
+		}
+
 		internal void DrawMenu()
 		{
 			Console.WriteLine("Выберите вариант ниже:");
@@ -25,30 +36,28 @@ namespace Command
 		internal void PerformAction()
 		{
 			Console.Write("Ваш выбор: ");
-			var input = Console.ReadLine();
+			var input = Console.ReadLine() ?? string.Empty;
 
 			switch (input)
 			{
-				case "1":
-					TurnLightOn();
-					break;
 				case "1off":
 					TurnLightOff();
 					break;
-				case "2":
-					TurnTvOn();
-					break;
 				case "2off":
 					TurnTvOff();
-					break;
-				case "3":
-					TurnMusicOn();
 					break;
 				case "3off":
 					TurnMusicOff();
 					break;
 			}
 
+			if (_commands.ContainsKey(input))
+				_commands[input].Execute();
+		}
+
+		public void SerCommandForButton(string btnId, ICommand cmd)
+		{
+			_commands[btnId] = cmd; // если же ключ существет - он будет перезаписан, если нет - добавлен
 		}
 
 		private void TurnMusicOff()
@@ -56,19 +65,9 @@ namespace Command
 			Console.WriteLine("Music выключен");
 		}
 
-		private void TurnMusicOn()
-		{
-			Console.WriteLine("Music включен");
-		}
-
 		private void TurnTvOff()
 		{
 			Console.WriteLine("Телевизор выключен");
-		}
-
-		private void TurnTvOn()
-		{
-			Console.WriteLine("Телевизор включен");
 		}
 
 		private void TurnLightOff()
@@ -76,9 +75,5 @@ namespace Command
 			Console.WriteLine("Свет выключен");
 		}
 
-		private void TurnLightOn()
-		{
-			Console.WriteLine("Свет включен");
-		}
 	}
 }
