@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="Command\ICommand.cs" />
     <Compile Include="Command\LightsCommand.cs" />
+    <Compile Include="Command\TeapodCommand.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RemoteControl.cs" />

@@ -14,7 +14,10 @@ namespace Command
 			var remote = new RemoteControl();
 			string userInput;
 
-			remote.SerCommandForButton("2", new LightsCommand());
+			remote.SerCommandForButton("1", new LightsCommand());
+			remote.SerCommandForButton("2", new TvCommand());
+			remote.SerCommandForButton("3", new MusicCommand());
+			remote.SerCommandForButton("4", new TeapodCommand());
 			do
 			{
 				remote.DrawMenu();
