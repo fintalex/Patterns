@@ -16,7 +16,7 @@ namespace State
             Driving
         }
 
-        private int _gasoline = 0;
+        public int Gasoline { get; set; }
         private CarState _state = CarState.EmtyTank;
 
         public void FillTank()

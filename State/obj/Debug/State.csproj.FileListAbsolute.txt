@@ -1,0 +1,6 @@
+C:\Users\Алексей\Documents\GitHub\Patterns\State\bin\Debug\State.exe.config
+C:\Users\Алексей\Documents\GitHub\Patterns\State\bin\Debug\State.exe
+C:\Users\Алексей\Documents\GitHub\Patterns\State\bin\Debug\State.pdb
+C:\Users\Алексей\Documents\GitHub\Patterns\State\obj\Debug\State.csprojResolveAssemblyReference.cache
+C:\Users\Алексей\Documents\GitHub\Patterns\State\obj\Debug\State.exe
+C:\Users\Алексей\Documents\GitHub\Patterns\State\obj\Debug\State.pdb
