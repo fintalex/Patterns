@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace State.States
 {
-    class DrivingState : IState
+    public class DrivingState : IState
     {
         private readonly Car _car;
         public DrivingState(Car car)
@@ -31,6 +31,7 @@ namespace State.States
         public void Stop()
         {
             Console.WriteLine("Накатался? Ну давай постоиим");
+            _car.SetState(_car.EngineStarted);
         }
 
         private void TryDriving()
@@ -38,11 +39,11 @@ namespace State.States
             if (_car.Gasoline > 0)
             {
                 Console.WriteLine("Поехали!");
-                _car.Gasoline -= 10;
             }
             else
             {
                 Console.WriteLine("Докатились. Бензин кончился");
+                _car.SetState(_car.EmtpyTank);
             }
         }
     }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace State.States
 {
-    class EmptyTankState : IState
+    public class EmptyTankState : IState
     {
         private readonly Car _car;
         public EmptyTankState(Car car)
@@ -15,8 +15,8 @@ namespace State.States
         }
         public void FillTank()
         {
-            _car.Gasoline = 70;
             Console.WriteLine("Бак теперь полон");
+            _car.SetState(_car.FullTank);
         }
 
         public void TurnKey()

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace State.States
 {
-    class FullTankState : IState
+    public class FullTankState : IState
     {
         private readonly Car _car;
         public FullTankState(Car car)
@@ -21,6 +21,7 @@ namespace State.States
         public void TurnKey()
         {
             Console.WriteLine("Дрын дын дын дны дын тррррр");
+            _car.SetState(_car.EngineStarted);
         }
 
         public void Drive()
